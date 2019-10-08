@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+body {
+    font-family: 'Bangers', cursive;
+    margin: 0;
+    font-size: 20px;
+}
+
+.navigation {
+    position: fixed;
+    background-color: #d40016;
+    width: 100%;
+    padding: 1px;
+}
+
+.navigation > .links .link {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navigation > .links .link a {
+    color: white;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.navigation > .links .link a:hover {
+    transition: all 1s ease-in-out;
+    font-size: 30px;
+    text-shadow: 1px 5px 20px #000000;
+}
+
+.call-to-action { 
+    background-image:url('https://wallpapercave.com/wp/wp4163492.jpg');
+    height: 25cm;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action h1, h3 {
+    color: #fde901;
+    text-align: center;
+    margin: 0;
+    font-size: 60px;
+    text-shadow: 1px 5px 20px #000000;
+}
+
+.content {
+    margin: 100px 0px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative; 
+    margin-top: 30px;
+}
+
+body {
+    background-color: #d40016;
+}
+
+#about .about img {
+    max-width: 300px;
+    height: auto;
+    border: 4px solid #ffffff;
+    border-radius: 20%;
+    float: center;
+}
+
+#about .about p {
+    font-size: 25px;
+}
+
+#portfolio > .portfolio ul {
+    padding-left: 0;
+}
+
+#portfolio > .portfolio ul li {
+    display: inline;
+}
+
+.col-12 ul li img:hover {
+    transition: all 1s ease-in-out;
+    transform: rotateY(360deg);
+}
